@@ -1,5 +1,3 @@
-<img width="1542" height="753" alt="image" src="https://github.com/user-attachments/assets/3652978f-d2e0-4a3b-8038-78ee5c92cbe0" /># Zero Trust NAC Transformation — Cisco ISE
-
 ## Overview
 AAA audit and Zero Trust NAC implementation across global enterprise.
 
