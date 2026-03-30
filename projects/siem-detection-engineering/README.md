@@ -83,3 +83,17 @@ SOC -->|Tuning / Feedback| D1
 - IAM / AAA (authentication, authorization)
 - Windows/Linux systems
 - Cloud logs (AWS)
+
+---
+
+### Processing Flow
+1.Collection
+- Syslog / API ingestion
+2.Parsing
+- Normalize fields (user, IP, action, timestamp)
+3.Enrichment
+- Geo-location
+- User identity
+- Asset criticality
+4.Indexing
+- Structured storage in SIEM
