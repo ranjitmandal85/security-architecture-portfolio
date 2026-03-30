@@ -87,13 +87,29 @@ SOC -->|Tuning / Feedback| D1
 ---
 
 ### Processing Flow
-1.Collection
+**1. Collection**
 - Syslog / API ingestion
-2.Parsing
+  
+**2. Parsing**
 - Normalize fields (user, IP, action, timestamp)
-3.Enrichment
+  
+**3. Enrichment**
 - Geo-location
 - User identity
 - Asset criticality
-4.Indexing
+
+**4. Indexing**
 - Structured storage in SIEM
+
+🔹 Detection Use-Cases
+1. VPN Anomaly Detection
+
+Logic:
+
+Multiple login failures followed by success
+Login from unusual geo-location
+Concurrent sessions from different locations
+
+Outcome:
+
+Detect compromised credentials
